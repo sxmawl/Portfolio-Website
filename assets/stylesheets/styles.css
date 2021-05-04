@@ -1,0 +1,84 @@
+/* ////////////////////////////////NAVBAR////////////////////////////// */
+
+.navbar {
+    padding: 1% 8%;
+}
+
+.nav-item {
+    margin: 5%;
+}
+
+
+
+/* //////////////////////////////// Main section///////////////// */
+
+.illustration {
+    max-width: 80%;
+    margin-top: 10%;
+}
+
+.hero-info {
+    padding: 10% 8% 10% 10%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: rgb(66, 66, 66);
+}
+
+.name-greet {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* ///////////////WORK////////////////////// */
+
+.jumbotron {
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 15%;
+    border: 5px solid rgb(199, 199, 199);
+    box-shadow:
+        0 0.9px 5.9px rgba(0, 0, 0, 0.022),
+        0 2.2px 14.2px rgba(0, 0, 0, 0.032),
+        0 4.1px 26.8px rgba(0, 0, 0, 0.04),
+        0 7.4px 47.8px rgba(0, 0, 0, 0.048),
+        0 13.8px 89.4px rgba(0, 0, 0, 0.058),
+        0 33px 214px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2%;
+
+}
+
+
+hr {
+    width: 15%;
+}
+
+
+
+
+
+.project-section {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#work {
+    padding: 5%;
+}
+
+.card {
+    width: unset !important;
+    text-align: center;
+}
