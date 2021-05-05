@@ -109,6 +109,6 @@ hr {
 
 @media (max-width: 468px) {
     .profile-img {
-        max-width: 25vw !important;
+        max-height: 50%;
     }
 }
