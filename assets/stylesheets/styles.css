@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 /* ////////////////////////////////NAVBAR////////////////////////////// */
 
 .navbar {
@@ -13,8 +18,12 @@
 /* //////////////////////////////// Main section///////////////// */
 
 .illustration {
-    max-width: 80%;
-    margin-top: 10%;
+    max-width: 95%;
+}
+
+.illustration-parent {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-info {
@@ -47,7 +56,7 @@ h1 {
 
 .profile-img {
     border-radius: 50%;
-    max-width: 15%;
+    max-width: 15vw;
     border: 5px solid rgb(199, 199, 199);
     box-shadow:
         0 0.9px 5.9px rgba(0, 0, 0, 0.022),
@@ -65,6 +74,18 @@ hr {
     width: 15%;
 }
 
+.lead a {
+    color: rgb(99, 99, 99);
+    margin: 0 1%;
+}
+
+.lead a:hover {
+    color: rgb(41, 41, 41);
+
+}
+
+
+
 
 
 
@@ -75,10 +96,19 @@ hr {
 }
 
 #work {
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .card {
     width: unset !important;
     text-align: center;
+    margin: 1rem 0;
+}
+
+
+
+@media (max-width: 468px) {
+    .profile-img {
+        max-width: 25vw !important;
+    }
 }
