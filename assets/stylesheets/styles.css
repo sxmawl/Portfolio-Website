@@ -24,6 +24,12 @@ body {
 .illustration-parent {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: unset;
+    background-image: url(/assets/images/hero.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hero-info {
@@ -107,8 +113,12 @@ hr {
 
 
 
-@media (max-width: 468px) {
-    .profile-img {
-        max-height: 50%;
+@media (max-width: 968px) {
+    .illustration-parent {
+        height: 50vh;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
