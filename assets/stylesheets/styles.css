@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     height: unset;
-    background-image: url(/assets/images/hero.png);
+    background-image: url(../images/hero.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
